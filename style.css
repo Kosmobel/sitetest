@@ -236,9 +236,10 @@ section {
 	height: 500px;
 	margin-right: 5%;
 }
-.mainform p {
+.mainform a {
 	margin-bottom: 5%;
 	color: gray;
+	width: 35%;
 }
 
 form select:focus, input:focus, textarea:focus {

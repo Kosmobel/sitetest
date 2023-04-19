@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ПР2</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<form class="mainform" action="index.html" method="post">
+			<fieldset class="mainfield">
+				<div class="header">
+					Проверка формы
+				</div>
+				<div class="alertmsg">
+					Введен некорректный e-mail!
+				</div>
+				<div class="forminp">
+					<label for="login">Логин:<span>*</span></label>
+					<input type="text" id="login" required placeholder="Ваш логин">
+				</div>
+				
+				<div class="forminp">
+					<label for="pass">Пароль:<span>*</span></label>
+					<input type="password" id="pass" required placeholder="Ваш пароль">
+				</div>
+				
+				<div class="forminp">
+					<label for="passconf">Подтвердите пароль:<span>*</span></label>
+					<input type="password" id="passconf" required placeholder="Ваш пароль">
+				</div class="forminp">
+				
+				<div class="forminp">
+					<label for="email">Email адрес:<span>*</span></label>
+					<input type="email" id="email" required placeholder="Например, ivan@mail.ru">
+				</div>
+				
+				<div class="forminp">
+					<label for="select">Показывать Email:</label>
+					<select id="select">
+						<option></option>
+						<option>Скрыть</option>
+						<option>Показать</option>
+					</select>
+				</div>
+				
+				<div class="forminp">
+					<label for="tel">Телефон:</label>
+					<input type="tel" id="tel" placeholder="123456789">
+				</div>
+				
+				<div class="forminp">
+					<label for="about" id="textabout">О себе:<span>*</span></label>
+					<textarea id="about" cols="22" rows="4" placeholder="Расскажите нам о себе!"></textarea>
+				</div>
+				
+				<div class="forminp">
+					<label for="checkbox">Получать рассылку:</label>
+					<input type="checkbox" class="chk" width="14%">
+				</div>
+				<div class="subm">
+					<input type="submit" id="confirm">
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>

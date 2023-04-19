@@ -1,0 +1,70 @@
+.mainfield {
+	border-radius: 9px;
+	background-image: url(bckgr.jpg);
+}
+
+.mainform {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.header {
+	margin: 4%;
+	font-size: 1.5rem;
+}
+
+form input, select, textarea {
+	margin-bottom: 3%;
+	border: 1px solid;
+	width: 48%;
+}
+.forminp {
+	text-align: right;
+	margin-right: 3%;
+}
+form label {
+	float: left;
+	margin-left: 4%;
+}
+span {
+	color: red;
+}
+select {
+	width: 50%;
+}
+
+#textabout {
+	padding-top: 7%;
+}
+#confirm {
+	border-radius: 3px;
+	width: 45%;
+	height: 30px;
+	background: linear-gradient(white, lightgrey);
+	margin-top: 5%;
+	margin-right: 15%;
+}
+
+#email:invalid {
+	border: 2px solid red;
+}
+
+.chk {
+	float: left;
+	width: 14%;
+}
+
+.subm {
+	margin: 3%;
+	border-radius: 9px;
+}
+.alertmsg {
+	margin: 3%;
+	border: 1px dashed;
+	background: pink;
+	padding: 2%;
+	width: 90%
+}
+
+
